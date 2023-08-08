@@ -6,7 +6,7 @@ function formulaDepositar(){
 }
 
 function formulaRetirar(){
-    var cantidadT=parseInt(document.getElementById('Retiro').value);
+    var cantidadT=parseInt(document.getElementById('Retirar').value);
     var cantidadSaldo=parseInt(document.getElementById('S').value);
     document.getElementById('S').value=(cantidadSaldo-cantidadT);
 }
